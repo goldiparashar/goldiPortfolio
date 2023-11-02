@@ -14,19 +14,19 @@ var copyBtn = document.querySelector('.copy-btn');
             }
         })
 
-    function checkScroll() {
-        var socialIcons= document.querySelector('.top-social-icons');
-        console.log(window.scrollY);
-        if (window.scrollY >= 300) {
-            socialIcons.style.display = "none";
-        }
-        else{
-            socialIcons.style.display = "block";
-        }
-      }
-     document.addEventListener('scroll', () => {
-        checkScroll();
-     })
+    // function checkScroll() {
+    //     var socialIcons= document.querySelector('.top-social-icons');
+    //     console.log(window.scrollY);
+    //     if (window.scrollY >= 300) {
+    //         socialIcons.style.display = "none";
+    //     }
+    //     else{
+    //         socialIcons.style.display = "block";
+    //     }
+    //   }
+    //  document.addEventListener('scroll', () => {
+    //     checkScroll();
+    //  })
 
     gsap.set(".cursorball", {xPercent: -50, yPercent: -50});
     const ball = document.querySelector(".cursorball");
