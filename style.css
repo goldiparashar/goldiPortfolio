@@ -135,21 +135,23 @@ header{
 .top-social-icons {
     bottom: 4px;
     left: 0;
-    padding-left: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
 }
 .top-social-icons ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    max-width: 120px;
-    justify-content: space-between;
+    /* max-width: 120px; */
+    justify-content: flex-start;
     list-style: none;
 }
 .top-social-icons ul li a {
     color: #fff;
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 input.copy-mail {
     background-color: transparent;
@@ -211,6 +213,10 @@ input.copy-mail {
         top: 60px;
         padding: 20px;
         border-radius: 12px;
+    }
+    .about-left .profile-circle img {
+        width: 160px;
+        height: 160px;
     }
 }
 @media screen and (max-width:574px) {
